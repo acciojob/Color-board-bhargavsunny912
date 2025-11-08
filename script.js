@@ -9,7 +9,7 @@ let container=document.querySelector(".container");
             div.className="square";
 
             div.addEventListener("mouseover",(e)=>{
-                div.style.backgroundColor="red";
+                div.style.backgroundColor="rgb(29,29,29)";
             })
             
 
