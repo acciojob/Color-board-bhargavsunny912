@@ -10,7 +10,11 @@ let container=document.querySelector(".container");
 
             div.addEventListener("mouseover",(e)=>{
                 div.style.backgroundColor="red";
-            })
+			})
+			div.addEventListener("mouseout",(e)=>{
+				div.style.transition="backgroundColor 1s ease 1s";
+                div.style.backgroundColor="rgb(29,29,29)";
+			})
             
 
             container.append(div);
