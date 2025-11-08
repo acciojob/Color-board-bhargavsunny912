@@ -11,7 +11,7 @@
 	gap:10px;
 }
 .square{
-	background-color:graytext;
+	background-color:rgb(29,29,29);
 	height:15px;
 	width:15px;
 	transition:background-color 1s ease-in-out;
