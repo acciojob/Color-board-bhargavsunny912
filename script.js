@@ -1,2 +1,17 @@
 //your JS code here. If required.
-https://www.svgrepo.com/show/345221/three-dots.svg
+let container=document.querySelector(".container");
+        let square=document.querySelectorAll(".square");
+
+        let colors=["red","blue","violet","indigo","green","yellow","orange","aliceblue","saffron","pink"];
+            
+        for(let i=0;i<800;i++){
+            let div=document.createElement("div");
+            div.className="square";
+
+            div.addEventListener("mouseover",(e)=>{
+                div.style.backgroundColor="red";
+            })
+            
+
+            container.append(div);
+        }
